@@ -1,0 +1,22 @@
+# Tell the EditorConfig plugin that this is the root file and that you don't need to look further up
+root = true
+
+# Match all documents
+[*]
+# Setting the character set
+charset = utf-8
+#Indent style, optional space, tab
+indent_style = space
+# Number of spaces for indentation
+indent_size = 2
+# Ending line break, optional lf, cr, crlf
+end_of_line = lf
+# Insert a new line at the end of the file
+insert_final_newline = true
+# Delete the space before and after a line
+trim_trailing_whitespace = true
+
+# Match files ending in md
+[*.md]
+insert_final_newline = false
+trim_trailing_whitespace = false

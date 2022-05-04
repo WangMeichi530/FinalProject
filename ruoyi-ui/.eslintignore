@@ -1,0 +1,9 @@
+# Ignore syntax checks for files of type js in the build directory
+build/*.js
+# Ignore syntax checking for files in the src/assets directory
+src/assets
+# Ignore syntax checks for files in the public directory
+public
+# Ignore syntax checking for files in the current directory that are js
+*.js
+# Ignore syntax check
